@@ -7,7 +7,7 @@ count=2
 connection {
 type="ssh"
 user="ubuntu"
-private_key = file("./ShyamKey.pem")
+private_key = file("./ShyamKey")
 host = self.public_ip
 }
 provisioner "file" {
